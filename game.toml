@@ -5,6 +5,8 @@ id = "SLUS-01019"
 players = 1
 exe = "disc/SLUS_010.19"
 disc = "disc/Threads of Fate (USA, Canada).cue"
+discs = ["disc/Threads of Fate (USA, Canada).cue"]
+disc_serials = ["SLUS-01019"]
 load_address = "0x80010004"
 entry_pc = "0x8003FDD8"
 text_size = "0x00097800"
@@ -21,7 +23,7 @@ known_sha1 = ["375e4a344c4feef969bef6042ff1f90e350fa5d5"]
 known_crc32 = ["59b2f8a3"]
 
 [recompiler]
-bios_config = "psxrecomp/bios/SCPH5552.toml"
+bios_config = "psxrecomp/bios/SCPH1001.toml"
 seeds = "seeds/ghidra_funcs.txt"
 out_dir = "generated"
 strict = true
